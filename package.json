@@ -1,0 +1,33 @@
+{
+  "name": "movieratingsystem",
+  "version": "1.0.0",
+  "description": "This is a project to keep track of movies. It is a project for Celeste Artley's portfolio.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "devStart": "nodemon -r esm -r dotenv/config ./ServerSide/Index.js",
+    "start": "node ./ServerSide/Index.js"
+  },
+  "keywords": [],
+  "author": "Celeste Artley",
+  "license": "MIT",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "5.13.1",
+    "body-parser": "^1.19.0",
+    "bootstrap": "4.5.0",
+    "connect-mongo": "^3.2.0",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.5",
+    "esm": "^3.2.25",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "got": "^11.7.0",
+    "jquery": "^3.5.1",
+    "material-design-icons": "^3.0.1",
+    "mongoose": "^5.10.9",
+    "passport": "^0.4.1",
+    "passport-google-oauth20": "^2.0.0",
+    "simple-line-icons": "^2.4.1"
+  },
+  "devDependencies": {}
+}
