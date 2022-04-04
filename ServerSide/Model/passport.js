@@ -8,7 +8,7 @@ function startPassport(passport) {
   passport.use(
     new GoogleStrategy(
       {
-        clientID: passport.env.GOOGLE_CLIENT_ID,
+        clientID: CID,
         clientSecret: Secret,
         callbackURL: Callback,
       },
